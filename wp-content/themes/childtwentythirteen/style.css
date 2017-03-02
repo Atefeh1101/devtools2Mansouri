@@ -12,12 +12,12 @@ Template: twentythirteen
 /*Typography changes*/
 /* font-family: 'Open Sans', sans-serif;*/
 
-/*h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
 
     font-family: 'Lobster Two', cursive;
     color: red;
-    /*line-height: 1.3;
-}*/
+    /*line-height: 1.3;*/
+}
 
 
 html, button, input, select, textarea {
@@ -25,6 +25,12 @@ html, button, input, select, textarea {
 }
 
 
-article, aside, details, figcaption, figure, footer, header, nav, section, summary {
-    background-color: rebeccapurple;
+.entity-title {
+    font-size: 53px;
+}
+
+.entry-content{
+
+	background-color: #800000;
+	color: white;
 }
