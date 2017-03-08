@@ -24,6 +24,11 @@ html, button, input, select, textarea {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 
+b , strong {
+
+    color: white;
+}
+
 
 .entity-title {
     font-size: 53px;
@@ -33,4 +38,38 @@ html, button, input, select, textarea {
 
 	background-color: #800000;
 	color: white;
+} 
+
+.site-title {
+    color: #eee;
+    font-size: 45px;
+}
+
+.site-description {
+    font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+    color: black;
+}
+
+
+.nav-menu li a {
+    font-size: 25px;
+    
+}
+
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus {
+    background-color: #800000;
+}
+
+.widget {
+    background-color: #800000;
+    
+}
+
+.widget a {
+    color: #fff;
+}
+
+h3{
+
+    color: #f7f5e7
 }
